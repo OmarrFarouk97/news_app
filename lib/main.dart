@@ -45,18 +45,6 @@ void main() async {
 
       Widget? widget;
 
-      //dol bto3 l app shop eli t7t dol
-      // bool? onBoarding = CacheHelper.getData(key: 'onBoarding');
-      //
-      //  token = CacheHelper.getData(key: 'token');
-      // if (onBoarding != null )
-      // {
-      //   if (token != null) widget = ShopLayout();
-      //
-      //   else widget = ShopLoginScreen();
-      // }else{
-      //   widget = OnBoradingScreen();
-      // }
 
       runApp(MyApp(
         isDark: isDark,
